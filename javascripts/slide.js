@@ -24,13 +24,25 @@
         $(".head").addClass("none");
         $(".head2").removeClass("none");
        });
+       $(".head2").click(function() {
+        $(".head2").addClass("none");
+        $(".head").removeClass("none");
+       });
        $(".leg1").click(function() {
         $(".leg1").addClass("none");
         $(".leg12").removeClass("none");
        });
+       $(".leg12").click(function() {
+        $(".leg12").addClass("none");
+        $(".leg1").removeClass("none");
+       });
        $(".leg2").click(function() {
         $(".leg2").addClass("none");
         $(".leg23").removeClass("none");
+       });
+       $(".leg23").click(function() {
+        $(".leg23").addClass("none");
+        $(".leg2").removeClass("none");
        });
         // $(".copito").click(function() {
         //  $(".copito").addClass("none");
