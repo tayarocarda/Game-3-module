@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px) and (max-width: 2560px){
 body {
  background: #003DE3;
  width: 1920px;
@@ -6,6 +7,7 @@ body {
 body img, body p, body div{
   position: absolute;
 }
+/* first game */
 .balerina {
   width: 32.91vw;
   left: 32.58vw;
@@ -79,6 +81,7 @@ body img, body p, body div{
 }
 .wardrobe {
 }
+/* third game */
 .floor {
   width: 99.91vw;
 }
@@ -114,6 +117,7 @@ body img, body p, body div{
   left: 87.6vw;
   top: 3.6vw;
 }
+/* second game */
 .yellowcircle {
   width: 9.91vw;
   height: 9.91vw;
@@ -321,9 +325,9 @@ body img, body p, body div{
   border-radius: 100%;
 }
 .arrow {
-  width: 4.9vw;
-  left: 46.8vw;
-  top: 17.7vw;
+  width: 5.9vw;
+  left: 46.3vw;
+  top: 20vw;
 }
 .swirl {
   transition: all 1s linear;
@@ -333,12 +337,23 @@ body img, body p, body div{
 }
 .twister {
 }
+/* menu */
 .leg1 {
   width: 14.9vw;
   left: 16.48vw;
   top: -4.4vw;
 }
+.leg12 {
+  width: 14.9vw;
+  left: 16.48vw;
+  top: -4.4vw;
+}
 .leg2 {
+  width: 14.9vw;
+  left: 29.48vw;
+  top: -4.4vw;
+}
+.leg23 {
   width: 14.9vw;
   left: 29.48vw;
   top: -4.4vw;
@@ -358,6 +373,11 @@ body img, body p, body div{
    90% {top: -4.4vw;}
   }
 .head {
+  width: 20vw;
+  left: 60vw;
+  top: -1.4vw;
+}
+.head2 {
   width: 20vw;
   left: 60vw;
   top: -1.4vw;
@@ -450,12 +470,6 @@ body img, body p, body div{
   width: 30vw;
   left: 55vw;
   top: 5.6vw;
-}
-.bolvanka {
-  width: 76vw;
-  left: 11vw;
-  top: 3vw;
-  opacity: 0%;
 }
 .cop {
   width: 6vw;
@@ -579,6 +593,27 @@ body img, body p, body div{
 .opa {
   opacity: 70%;
 }
+.shape {
+  display: none;
+}
+.shape2 {
+  display: none;
+}
+.shape3 {
+  display: none;
+}
+.shape4 {
+  display: none;
+}
+.shape5 {
+  display: none;
+}
+.shape6 {
+  display: none;
+}
+.shape7 {
+  display: none;
+}
 .move-area{
   width: 52.6vw;
   height: 42vh;
@@ -606,4 +641,5 @@ body img, body p, body div{
   background: #003DE3;
   border-radius: 50%;
   content: " ";
+}
 }

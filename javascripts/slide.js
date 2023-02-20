@@ -4,7 +4,7 @@
      $(".wardrobe").removeClass("none");
      setTimeout(function(){
        $(".ready").removeClass("none");
-     }, 15000)
+     }, 20000)
  	});
      $(".cross").click(function() {
       $(".wardrobe").addClass("none");
@@ -19,6 +19,18 @@
        $(".clearthefloor").click(function() {
         $(".menu").addClass("none");
         $(".floorpole").removeClass("none");
+       });
+       $(".head").click(function() {
+        $(".head").addClass("none");
+        $(".head2").removeClass("none");
+       });
+       $(".leg1").click(function() {
+        $(".leg1").addClass("none");
+        $(".leg12").removeClass("none");
+       });
+       $(".leg2").click(function() {
+        $(".leg2").addClass("none");
+        $(".leg23").removeClass("none");
        });
         // $(".copito").click(function() {
         //  $(".copito").addClass("none");
