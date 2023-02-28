@@ -44,21 +44,6 @@
         $(".leg23").addClass("none");
         $(".leg2").removeClass("none");
        });
-        // $(".copito").click(function() {
-        //  $(".copito").addClass("none");
-        //  });
-        //  $(".copito2").click(function() {
-        //   $(".copito2").addClass("none");
-        //  });
-        //   $(".copito3").click(function() {
-        //   $(".copito3").addClass("none");
-        //    });
-        //   $(".copito4").click(function() {
-        //    $(".copito4").addClass("none");
-        //   });
-        //    $(".copito5").click(function() {
-        //    $(".copito5").addClass("none");
-        //    });
             $(".good").click(function() {
              $(".good").addClass("none");
              $(".alert").addClass("none");
